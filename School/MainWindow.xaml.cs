@@ -55,7 +55,7 @@ namespace School
                     AddNewStudent();
                     break;
                 case Key.Delete:
-                    MessageBoxResult result = System.Windows.MessageBox.Show("Are you sure???", "Delete Confirmation", System.Windows.MessageBoxButton.YesNo);
+                    MessageBoxResult result = System.Windows.MessageBox.Show("Are you sure??", "Delete Confirmation", System.Windows.MessageBoxButton.YesNo);
                     if (MessageBoxResult.Yes == result)
                     {
                         Student studentDelete = this.studentsList.SelectedItem as Student;
